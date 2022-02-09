@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.embrulho {
+    width: 580px;
+    margin: 0 auto ;
+    border-radius: 10px;
+}
+
+body{
+    background-image: linear-gradient(45deg, rgba(250, 250, 250, 0.26),rgba(255, 255, 255, 0.26)), url(./img/imagem5.png);
+    background-size: cover;
+    background-position: cover;
+    min-height:  200vw;
+    min-height: 200vh;
+    background-repeat: no-repeat;
+
+}
+
+/* Começo estilo do header */
+#cabecalho_main {
+    width: 100%;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#foto_perfil{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+/* Fim do estilo do header */
+
+/* Começo do estilo dos links */
+
+.link {
+    width: 100%;
+}   
+
+.link > a{
+    display: block;
+    width: 100%;
+    padding: 20px 250px;
+    background-color: orange;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.link > a:hover {
+    background-color: black;
+    color: orange;
+    opacity: 5;
+}
+/* Fim do estilo dos links */
+
+/* Começo estilo do rodapé */
+
+#rodape_simbolos{
+    display: flex;
+    justify-content: center;
+}
+
+.simbolo {
+    font-size: 30px;
+    color: white;
+    margin: 0 10PX;
+}
+
+.simbolo:hover {
+    color: orange;
+}
+
+/* Fim estilo do rodapé */
