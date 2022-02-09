@@ -1,0 +1,84 @@
+    @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito:wght@600;700;800&display=swap');
+
+ /* CSS Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Começo do Embrulho/Wrapper  +  Flexbox (Coisas reaproveitáveis)*/
+.wrapper{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #EA0F78;
+    background-color: #fff;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: block;
+    width: fit-content;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+
+/* Estilo Seção Inical (Menu + Banner) */
+#secao-inicial{
+    background: linear-gradient(90deg, #D83482 0%, #EC0A76 100%), 
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(.png);
+    padding: 32px 0;
+    color: #fff;
+}
+
+/* Menu */
+#logo{
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+#links-secoes{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+}
+#links-secoes > a{
+    padding: 10px 15px;
+}
+#links-secoes > a:hover{
+    text-decoration: underline;
+}
+.btn_menu {
+    font-size: 16px;
+}
+
+/* Banner */
+#conteudo-inicial{
+    margin-top: 64px;
+}
+#conteudo-esq{
+    width: 40%;
+}
+#conteudo-esq > h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 56px;
+    font-weight: 800; 
+}
+#conteudo-esq > p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    margin: 10px 0 32px;
+}
